@@ -1,0 +1,29 @@
+name,description,type,unit,example
+date,"ISO date of the race (YYYY-MM-DD). For stage races, stage date.",date,YYYY-MM-DD,2019-03-23
+rider,Rider's full name (as listed in results).,string,,John Doe
+nation,"Rider's nationality (ISO 3166-1 alpha-3 preferred; e.g., 'ISR').",string,ISO-3166-1 alpha-3,ISR
+age,"Rider age on race day (years, integer).",integer,years,27
+speciality,"Rider specialization/role label (e.g., climber, sprinter, puncheur, GC).",string,,Sprinter
+team,Team name on race day (registered UCI team name).,string,,Israel–Premier Tech
+race,"Race or stage name (e.g., 'Tour de France Stage 5', 'Milan–San Remo').",string,,Milan–San Remo
+classification,"UCI race class or category (e.g., 1.UWT, 2.Pro, 1.1, 2.1, ITT).",string,,1.UWT
+pointsScale,"Points scale identifier used for this race class (e.g., PCS/UCI scale code).",string,scale code,UWT-1
+pointsAvailable,Total points available for the event (per the scale).,integer,points,500
+distance,Race distance (kilometers).,float,km,291.0
+verticalMeters,Total vertical meters climbed (meters).,integer,m,2650
+profile,"Course profile category (e.g., Flat, Hilly, Mountain, TT).",categorical,,Hilly
+profileScore,Numerical difficulty score of the stage/course (unitless index).,float,index,78.5
+profileScoreFinal,"Adjusted final profile score near finish (e.g., last 10–20 km difficulty; unitless).",float,index,82.0
+temperatureAvg,Average ambient temperature during race (°C).,float,°C,18.4
+departure,Departure/start location (city/region).,string,,Milano
+arrival,Arrival/finish location (city/region).,string,,Sanremo
+starQualityScore,Strength-of-field index / star rating of participants (unitless).,float,index,8.9
+wonHow,"Winning method (e.g., sprint, solo, small group, late attack).",categorical,,Sprint
+rank,Rider's finishing rank/position (1 = winner; integers; DNF/DNS as NA or codes).,integer,rank,14
+time,"Finishing time or time gap format string (e.g., '4:23:10' or '+00:12').",string,,+00:03
+bonus,Time bonus applied (seconds).,integer,seconds,0
+speed,Rider's average speed if available (km/h).,float,km/h,45.2
+points,Points actually awarded to the rider (per scale).,integer,points,8
+GC,General Classification flag or GC rank where applicable (boolean or integer rank).,integer/boolean,rank/flag,NA or 15
+timeLag,Time gap to the winner in seconds (numeric).,float,seconds,3.0
+speedWinner,Winner's average speed (km/h).,float,km/h,45.9
