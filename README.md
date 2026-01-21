@@ -1,6 +1,6 @@
 # VeloRost-Ex
 
-This repository implements my thesis research on ranking riders using the VeloRost framework I developed and implemented. By combining their individual leader skills with their teammates' helper skills, VeloRost creates a comprehensive pipeline for ranking cyclists in professional road cycling races. It focuses on learning-to-rank models built from TrueSkill leader and helper skills, roster aggregations, and race context features.
+This repository implements my thesis research on ranking riders using the VeloRost framework. By combining their individual leader skills with their teammates' helper skills, VeloRost-Ex creates a comprehensive pipeline for ranking cyclists in professional road cycling races. It focuses on learning-to-rank models built from statistical and Bayesian feature sets, roster aggregations, and race context indicators.
 
 The preliminary results and method details are published in:  
 ["A Bayesian Dual-Skill Framework for Roster-Based Cycling Race Outcome Prediction" (ISACE 2025)](https://link.springer.com/chapter/10.1007/978-3-032-06167-6_15).  
