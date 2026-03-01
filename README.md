@@ -225,7 +225,3 @@ Centralized in `roster_ranker/utils/config.py`. Key entries:
 4. Train base models  
 5. Run ensembles / direct ranking / feature importance  
 
-## Citing the preliminary paper
-
-If you reference this work, cite:  
-["A Bayesian Dual-Skill Framework for Roster-Based Cycling Race Outcome Prediction" (ISACE 2025)](https://link.springer.com/chapter/10.1007/978-3-032-06167-6_15)
