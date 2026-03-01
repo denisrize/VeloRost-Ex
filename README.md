@@ -21,7 +21,6 @@ This repository implements my thesis research on ranking riders using the VeloRo
 - [Experiment Functionality by Module](#experiment-functionality-by-module)
 - [Configuration](#configuration)
 - [Typical Workflow](#typical-workflow)
-- [Citing the Preliminary Paper](#citing-the-preliminary-paper)
 
 ## Dataset
 
